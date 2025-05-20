@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net6.0;net472</TargetFrameworks>
+		<IsPackable>true</IsPackable>
+		<Title>RulesEngine</Title>
+		<PackageId>RulesEngine</PackageId>
+		<Copyright>Copyright ThreatLocker 2023</Copyright>
+		<RepositoryUrl>https://github.com/threatlockerdev/RulesEngine</RepositoryUrl>
+		<RepositoryType>github</RepositoryType>
+		<PackageTags>rules</PackageTags>
+		<AssemblyVersion>3.0.0</AssemblyVersion>
+		<Version>$(AssemblyVersion)</Version>
+		<FileVersion>$(AssemblyVersion)</FileVersion>
+		<OutputType>Library</OutputType>
+		<Description>RulesEngine - Learning algorithm for application names and files</Description>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Newtonsoft.Json">
+		  <Version>13.0.3</Version>
+		</PackageReference>
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="Properties\" />
+	</ItemGroup>
+
+</Project>

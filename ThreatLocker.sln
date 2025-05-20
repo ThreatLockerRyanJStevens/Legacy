@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreatLocker.Common", "TL.Common\ThreatLocker.Common.csproj", "{F400DACE-6460-579A-0ED3-21C2BDE9B2AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreatLocker.Shared", "TL.Shared\ThreatLocker.Shared.csproj", "{33FAA493-4B17-3043-2A6B-2BE3963D90CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LIbraries", "LIbraries", "{D25948A5-3B61-4D07-A068-51AA3572BE71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreatLocker.Framework", "TL.Framework\ThreatLocker.Framework.csproj", "{51592EE3-FB19-AEBE-EB7A-43E67123B47D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreatLocker.Framework_UnitTests", "TL.Framework_UnitTests\ThreatLocker.Framework_UnitTests.csproj", "{A1D8DE30-48DD-4CF6-B049-3D122D9BD3A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Play Lists", "_Play Lists", "{93B2B56C-514B-4D04-A91E-C0AFF71CE856}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F400DACE-6460-579A-0ED3-21C2BDE9B2AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F400DACE-6460-579A-0ED3-21C2BDE9B2AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F400DACE-6460-579A-0ED3-21C2BDE9B2AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F400DACE-6460-579A-0ED3-21C2BDE9B2AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33FAA493-4B17-3043-2A6B-2BE3963D90CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33FAA493-4B17-3043-2A6B-2BE3963D90CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33FAA493-4B17-3043-2A6B-2BE3963D90CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33FAA493-4B17-3043-2A6B-2BE3963D90CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51592EE3-FB19-AEBE-EB7A-43E67123B47D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51592EE3-FB19-AEBE-EB7A-43E67123B47D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51592EE3-FB19-AEBE-EB7A-43E67123B47D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51592EE3-FB19-AEBE-EB7A-43E67123B47D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1D8DE30-48DD-4CF6-B049-3D122D9BD3A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1D8DE30-48DD-4CF6-B049-3D122D9BD3A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1D8DE30-48DD-4CF6-B049-3D122D9BD3A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1D8DE30-48DD-4CF6-B049-3D122D9BD3A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F400DACE-6460-579A-0ED3-21C2BDE9B2AB} = {D25948A5-3B61-4D07-A068-51AA3572BE71}
+		{33FAA493-4B17-3043-2A6B-2BE3963D90CF} = {D25948A5-3B61-4D07-A068-51AA3572BE71}
+		{51592EE3-FB19-AEBE-EB7A-43E67123B47D} = {D25948A5-3B61-4D07-A068-51AA3572BE71}
+		{A1D8DE30-48DD-4CF6-B049-3D122D9BD3A7} = {D25948A5-3B61-4D07-A068-51AA3572BE71}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1681C77A-A790-47FC-8FB5-731E2CE7F885}
+	EndGlobalSection
+EndGlobal

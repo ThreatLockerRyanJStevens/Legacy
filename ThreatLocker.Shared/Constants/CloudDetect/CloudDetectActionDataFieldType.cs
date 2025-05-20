@@ -1,0 +1,35 @@
+﻿namespace ThreatLocker.Shared.Constants.CloudDetect
+{
+    public enum CloudDetectActionDataFieldType
+    {
+        ServiceNotes = 0,
+        AlertSeverity = 1,
+        AlertThreatLevel = 2,
+        AlertSummary = 3,
+        AlertDetails = 4,
+        EmailRecipients = 5,
+        EmailSubject = 6,
+        EmailBody = 7,
+        WebhookMethod = 8,
+        WebhookURL = 9,
+        WebhookContentType = 10,
+        WebhookHeaders = 11,
+        WebhookBody = 12,
+        RestAPIMethod = 13,
+        RestAPIURL = 14,
+        RestAPIContentType = 15,
+        RestAPIHeaders = 16,
+        RestAPIBody = 17,
+        KaseyaTicketSubject = 18,
+        KaseyaTicketBody = 19,
+        DattoTicketSubject = 20,
+        DattoTicketBody = 21,
+        ConnectwiseTicketSubject = 22,
+        ConnectwiseTicketBody = 23,
+        PushNotificationAdministrators = 24,
+        CyberHeroDetectionAndResponse = 25,
+        HaloPSATicketSubject = 26,
+        HaloPSATicketBody = 27,
+        LockoutAccount = 28,
+    }
+}

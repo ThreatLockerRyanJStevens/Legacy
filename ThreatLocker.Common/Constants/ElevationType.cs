@@ -1,0 +1,33 @@
+﻿using System.Linq;
+
+namespace ThreatLockerCommon.Constants
+{
+    public class ElevationType
+    {
+        public static readonly ElevationType DoNotElevate = new ElevationType(0, "Do Not Elevate");
+        public static readonly ElevationType AllowElevation = new ElevationType(1, "Allow Elevation");
+        public static readonly ElevationType ElevateSilently = new ElevationType(2, "Elevate Silently");
+
+        public ElevationType(int id, string name)
+        {
+            Id = id;
+            Name = name;
+        }
+
+        public int Id { get; set; }
+        public string Name { get; set; }
+        
+        public static readonly ElevationType[] All =
+        {
+            DoNotElevate,
+            AllowElevation,
+            ElevateSilently
+        };
+
+        //Optional Find method
+        public static ElevationType Find(int id)
+        {
+            return All.FirstOrDefault(x => x.Id == id);
+        }
+    }
+}

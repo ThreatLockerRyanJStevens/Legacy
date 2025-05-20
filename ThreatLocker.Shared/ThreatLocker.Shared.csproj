@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFrameworks>net6.0</TargetFrameworks>
+		<IsPackable>true</IsPackable>
+		<Title>ThreatLocker.Shared</Title>
+		<PackageId>ThreatLocker.Shared</PackageId>
+		<Copyright>Copyright ThreatLocker 2024</Copyright>
+		<RepositoryUrl>https://github.com/threatlockerdev/ThreatLocker.Shared</RepositoryUrl>
+		<RepositoryType>github</RepositoryType>
+		<PackageTags>common</PackageTags>
+		<AssemblyVersion>2.0.0</AssemblyVersion>
+		<Version>$(AssemblyVersion)</Version>
+		<FileVersion>$(AssemblyVersion)</FileVersion>
+		<OutputType>Library</OutputType>
+		<Description>ThreatLocker.Shared library contains common classes and extension methods used in ThreatLocker Web Applications.</Description>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="HtmlSanitizer" Version="8.1.870" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+		<!--<PackageReference Include="ThreatLocker.Framework" Version="2.0.0.6" />-->
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\TL.Framework\ThreatLocker.Framework.csproj" />
+	</ItemGroup>
+</Project>

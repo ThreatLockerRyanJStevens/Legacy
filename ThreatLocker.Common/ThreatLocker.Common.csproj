@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net6.0;net472</TargetFrameworks>
+		<IsPackable>true</IsPackable>
+		<Title>ThreatLocker.Common</Title>
+		<PackageId>ThreatLocker.Common</PackageId>
+		<Copyright>Copyright ThreatLocker 2024</Copyright>
+		<RepositoryUrl>https://github.com/threatlockerdev/ThreatLocker.Common</RepositoryUrl>
+		<RepositoryType>github</RepositoryType>
+		<PackageTags>common</PackageTags>
+		<AssemblyVersion>2.5.0</AssemblyVersion>
+		<Version>$(AssemblyVersion)</Version>
+		<FileVersion>$(AssemblyVersion)</FileVersion>
+		<OutputType>Library</OutputType>
+		<Description>ThreatLocker.Common library contains common models to work with database and as well as request and response models to work with API's.</Description>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+	</ItemGroup>
+	<ItemGroup Condition="'$(TargetFramework)'=='net6.0'">
+		<PackageReference Include="System.Data.SqlClient">
+			<Version>4.8.6</Version>
+		</PackageReference>
+	</ItemGroup>
+</Project>
